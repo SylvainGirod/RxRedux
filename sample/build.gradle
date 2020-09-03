@@ -58,6 +58,8 @@ android {
 }
 
 dependencies {
+    compileOnly libraries.jdk9Deps
+
     implementation libraries.kotlinStdlib
     implementation supportLibraries.appCompat
     implementation supportLibraries.recyclerView
